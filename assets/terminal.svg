@@ -4,6 +4,11 @@
       <stop offset="0" stop-color="#0d1117"/>
       <stop offset="1" stop-color="#161b22"/>
     </linearGradient>
+
+    <clipPath id="clip0"><rect x="0" y="0" height="60" width="0"><animate attributeName="width" keyTimes="0;0.02;1" values="0;480;480" dur="20s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="clip1"><rect x="0" y="0" height="60" width="0"><animate attributeName="width" keyTimes="0;0.25;0.27;1" values="0;0;480;480" dur="20s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="clip2"><rect x="0" y="0" height="60" width="0"><animate attributeName="width" keyTimes="0;0.5;0.52;1" values="0;0;480;480" dur="20s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="clip3"><rect x="0" y="0" height="60" width="0"><animate attributeName="width" keyTimes="0;0.75;0.77;1" values="0;0;480;480" dur="20s" repeatCount="indefinite"/></rect></clipPath>
   </defs>
 
   <rect x="0" y="0" width="800" height="230" rx="10" fill="url(#term-bg)" stroke="#30363d" stroke-width="1"/>
@@ -17,10 +22,53 @@
   <text x="400" y="21" text-anchor="middle" fill="#8b949e" font-family="Segoe UI, Helvetica, sans-serif" font-size="12">anuvuti@dev — flagship-projects — zsh</text>
   <line x1="0" y1="34" x2="800" y2="34" stroke="#30363d" stroke-width="1"/>
 
-  <!-- prompt glyph -->
-  <text x="18" y="65" fill="#58A6FF" font-family="Consolas, monospace" font-size="16">➜</text>
+  <!-- dot progress indicators -->
+  <circle cx="770" cy="17" r="4" fill="#58A6FF"><animate attributeName="fill" keyTimes="0;0.25;0.5;0.75;1" values="#58A6FF;#30363d;#30363d;#30363d;#58A6FF" dur="20s" repeatCount="indefinite"/></circle>
+  <circle cx="752" cy="17" r="4" fill="#30363d"><animate attributeName="fill" keyTimes="0;0.25;0.5;0.75;1" values="#30363d;#58A6FF;#30363d;#30363d;#30363d" dur="20s" repeatCount="indefinite"/></circle>
+  <circle cx="734" cy="17" r="4" fill="#30363d"><animate attributeName="fill" keyTimes="0;0.5;0.52;0.75;1" values="#30363d;#30363d;#58A6FF;#30363d;#30363d" dur="20s" repeatCount="indefinite"/></circle>
+  <circle cx="716" cy="17" r="4" fill="#30363d"><animate attributeName="fill" keyTimes="0;0.75;0.77;1" values="#30363d;#30363d;#58A6FF;#30363d" dur="20s" repeatCount="indefinite"/></circle>
 
-  <!-- external typing animation, embedded inside our own terminal frame -->
-  <image x="10" y="44" width="770" height="170"
-    href="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=17&duration=2200&pause=900&color=39FF14&background=00000000&center=false&vCenter=false&multiline=true&width=760&height=160&lines=whoami;Anuvuti+Podder+%E2%80%94+AI%2FML+%2B+Full-Stack+Engineer;ls+~%2Fflagship-projects;Calibr++Aven++InfraPredict++TrustTrace;cat+calibr%2FREADME.md+%7C+head+-1;%3E+Real-time+Explainable+AI+audit+dashboards;echo+%24STATUS;Lead+Developer+%C2%B7+8%2B+projects+shipped" />
+  <!-- prompt glyph -->
+  <text x="18" y="65" fill="#58A6FF" font-family="Consolas, monospace" font-size="18">$</text>
+
+  <!-- Line 1 -->
+  <g opacity="0">
+    <animate attributeName="opacity" keyTimes="0;0.02;0.22;0.25;1" values="1;1;1;0;0" dur="20s" repeatCount="indefinite"/>
+    <g clip-path="url(#clip0)">
+      <text x="40" y="65" fill="#39FF14" font-family="Consolas, monospace" font-size="17">whoami</text>
+      <text x="40" y="95" fill="#c9d1d9" font-family="Consolas, monospace" font-size="15">&gt; Anuvuti Podder — AI/ML + Full-Stack Engineer</text>
+    </g>
+  </g>
+
+  <!-- Line 2 -->
+  <g opacity="0">
+    <animate attributeName="opacity" keyTimes="0;0.25;0.27;0.47;0.5;1" values="0;0;1;1;0;0" dur="20s" repeatCount="indefinite"/>
+    <g clip-path="url(#clip1)">
+      <text x="40" y="65" fill="#39FF14" font-family="Consolas, monospace" font-size="17">ls ~/flagship-projects</text>
+      <text x="40" y="95" fill="#c9d1d9" font-family="Consolas, monospace" font-size="15">Calibr  Aven  InfraPredict  TrustTrace</text>
+    </g>
+  </g>
+
+  <!-- Line 3 -->
+  <g opacity="0">
+    <animate attributeName="opacity" keyTimes="0;0.5;0.52;0.72;0.75;1" values="0;0;1;1;0;0" dur="20s" repeatCount="indefinite"/>
+    <g clip-path="url(#clip2)">
+      <text x="40" y="65" fill="#39FF14" font-family="Consolas, monospace" font-size="17">cat calibr/README.md | head -1</text>
+      <text x="40" y="95" fill="#c9d1d9" font-family="Consolas, monospace" font-size="15">&gt; Real-time Explainable AI audit dashboards</text>
+    </g>
+  </g>
+
+  <!-- Line 4 -->
+  <g opacity="0">
+    <animate attributeName="opacity" keyTimes="0;0.75;0.77;0.97;1" values="0;0;1;1;0" dur="20s" repeatCount="indefinite"/>
+    <g clip-path="url(#clip3)">
+      <text x="40" y="65" fill="#39FF14" font-family="Consolas, monospace" font-size="17">echo $STATUS</text>
+      <text x="40" y="95" fill="#c9d1d9" font-family="Consolas, monospace" font-size="15">Lead Developer · 8+ projects shipped</text>
+    </g>
+  </g>
+
+  <!-- blinking cursor -->
+  <rect x="30" y="52" width="9" height="16" fill="#39FF14">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
 </svg>
