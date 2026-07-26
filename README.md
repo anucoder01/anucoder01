@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,100:8B5CF6&height=180&section=header&text=Anuvuti%20Podder&fontSize=52&fontColor=ffffff&animation=fadeIn" width="100%"/>
 
 <a href="#">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&pause=1200&color=58A6FF&center=true&vCenter=true&width=650&lines=B.Tech+CSE+%40+Global+Academy+of+Technology;AI%2FML+Engineer+%C2%B7+Full-Stack+Developer;Lead+Developer+on+8%2B+production-grade+projects;Building+Explainable+AI%2C+NLP+%26+Cloud+Systems" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&pause=1200&color=58A6FF&center=true&vCenter=true&width=750&lines=B.Tech+CSE+%40+Global+Academy+of+Technology;AI%2FML+Engineer+%C2%B7+Full-Stack+Developer;Lead+Developer+on+8%2B+production-grade+projects;Building+Explainable+AI%2C+NLP+%26+Cloud+Systems" alt="Typing SVG" />
 </a>
 
 <p>
@@ -20,7 +20,7 @@
 
 ## 👋 About Me
 
-- 🎓 B.Tech in Computer Science (Core), **Global Academy of Technology**, Bangalore — CGPA **8.5/10**, Expected 2027
+- 🎓 B.Tech in Computer Science (Core), **Global Academy of Technology**, Bangalore — CGPA **8.62/10**, Expected 2027
 - 🧠 Focused on **Explainable AI, applied ML, and full-stack systems** that ship, not just prototypes
 - 🚀 Currently **Lead Developer** across multiple concurrent projects — Calibr, CoreConnect, Aven, InfraPredict, and more
 - 🎤 **Marketing Coordinator**, IT Virtuoso Club — ran branding for HACK-A-LEAGUE and emceed 5+ technical events
@@ -33,7 +33,7 @@
 
 **Languages & Core**
 <br/>
-<img src="https://skillicons.dev/icons?i=python,c,cpp,js,java,html,css" />
+<img src="https://skillicons.dev/icons?i=python,js,java,html,css" />
 <img src="https://img.shields.io/badge/Data%20Structures%20%26%20Algorithms-1f2937?style=flat-square&color=30363d"/>
 <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
 
