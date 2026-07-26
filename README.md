@@ -2,9 +2,14 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,100:8B5CF6&height=180&section=header&text=Anuvuti%20Podder&fontSize=52&fontColor=ffffff&animation=fadeIn" width="100%"/>
 
+<p align="center"><i>Crafting intelligent systems that think, reason, and learn.</i></p>
+<p align="center">☕ Turning caffeine into code.</p>
+
 <a href="#">
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&pause=1200&color=58A6FF&center=true&vCenter=true&width=750&lines=B.Tech+CSE+%40+Global+Academy+of+Technology;AI%2FML+Engineer+%C2%B7+Full-Stack+Developer;Lead+Developer+on+8%2B+production-grade+projects;Building+Explainable+AI%2C+NLP+%26+Cloud+Systems" alt="Typing SVG" />
 </a>
+
+<img src="https://raw.githubusercontent.com/anucoder01/anucoder01/main/assets/ai-focus-badge.svg" width="100%"/>
 
 <p>
   <a href="mailto:anuvutipodder205@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
@@ -56,6 +61,14 @@
 
 <br/>
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/anucoder01/anucoder01/main/assets/skillbars.svg" width="100%"/>
+</div>
+
+> Rough self-assessment, not a benchmark — feel free to tell me if you'd rather see different categories or numbers here.
+
+<br/>
+
 ## 📊 GitHub Stats
 
 <div align="center">
@@ -69,10 +82,20 @@
 
 <br/>
 
+## 🧬 AI / GenAI Focus
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/anucoder01/anucoder01/main/assets/orbit.svg" width="100%"/>
+</div>
+
+> My core focus is Generative AI and LLM-powered systems — the tools orbiting the hub above (LLMs, RAG, vector databases, PyTorch, Hugging Face, Vertex AI) are the ones I reach for most, across Aven, InfraPredict, TalentIQ, and beyond.
+
+<br/>
+
 ## 💻 Flagship Projects — Live Terminal
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/anucoder01/anucoder01/main/assets/terminal.svg" width="100%"/>
+  <img src="https://raw.githubusercontent.com/anucoder01/anucoder01/main/assets/terminal.svg?v=2" width="100%"/>
 </div>
 
 <div align="center">
