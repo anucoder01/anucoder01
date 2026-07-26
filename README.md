@@ -25,12 +25,17 @@
 
 ## 👋 About Me
 
-- 🎓 B.Tech in Computer Science (Core), **Global Academy of Technology**, Bangalore — CGPA **8.62/10**, Expected 2027
-- 🧠 Focused on **Explainable AI, applied ML, and full-stack systems** that ship, not just prototypes
-- 🚀 Currently **Lead Developer** across multiple concurrent projects — Calibr, CoreConnect, Aven, InfraPredict, and more
-- 🎤 **Marketing Coordinator**, IT Virtuoso Club — ran branding for HACK-A-LEAGUE and emceed 5+ technical events
-- 📚 Completed virtual internships with **FutureInterns** and **Infosys**; currently deepening Generative AI skills via **Google Cloud Skills Boost**
-- 📫 Reach me at **anuvutipodder205@gmail.com**
+```
+> whoami --verbose
+```
+
+- 🎓 **B.Tech CSE (Core)** @ Global Academy of Technology, Bangalore — CGPA **8.62/10**, Class of 2027
+- 🧪 Turn research papers into working products — Explainable AI, RAG pipelines, and anomaly detection that actually ship
+- 🧵 Juggling **8 concurrent "Lead Developer" projects** and somehow all of them are still "Ongoing" (it's a feature, not a bug)
+- 🎯 Two things obsess me: making AI **explainable** and making software **fast** — sub-150ms latency isn't a nice-to-have, it's a personality trait
+- 🎤 Marketing Coordinator, IT Virtuoso Club — ran branding for **HACK-A-LEAGUE** and emceed 5+ tech events (turns out debugging code and hosting a stage aren't that different)
+- 🧑‍💻 Ex-intern @ **FutureInterns** and **Infosys**; currently leveling up Generative AI chops via **Google Cloud Skills Boost**
+- 📫 **anuvutipodder205@gmail.com** — I reply faster than my APIs (~250ms, allegedly)
 
 <br/>
 
@@ -64,8 +69,6 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/anucoder01/anucoder01/main/assets/skillbars.svg" width="100%"/>
 </div>
-
-> Rough self-assessment, not a benchmark — feel free to tell me if you'd rather see different categories or numbers here.
 
 <br/>
 
@@ -110,6 +113,12 @@
 <br/>
 
 ## 🚀 Flagship Projects
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/anucoder01/anucoder01/main/assets/flagship-cards.svg" width="100%"/>
+</div>
+
+<br/>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:58A6FF,100:8B5CF6&height=3&width=100%25" />
 
@@ -165,10 +174,16 @@ Lead Developer on an automated signature-verification and fraud-inference platfo
 
 <br/>
 
-## 🏆 Trophies
+<br/>
+
+## 🕹️ Contribution Game
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=anucoder01&theme=algolia&no-frame=true&row=1&column=6" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anucoder01/anucoder01/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anucoder01/anucoder01/output/pacman-contribution-graph.svg">
+    <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/anucoder01/anucoder01/output/pacman-contribution-graph.svg" width="100%"/>
+  </picture>
 </div>
 
 <br/>
