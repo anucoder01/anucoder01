@@ -107,8 +107,6 @@
 
 </div>
 
-> A live typing terminal (built as a composite SVG, no GitHub Action needed) that cycles through real commands — `whoami`, `ls flagship-projects/`, `cat calibr/README.md` — like a genuine dev session. The badges under it are real clickable links straight to each repo, which is the one kind of true interactivity a GitHub README can actually deliver (embedded images can't run hover/JS, but links always work).
-
 <br/>
 
 ## 🚀 Flagship Projects
