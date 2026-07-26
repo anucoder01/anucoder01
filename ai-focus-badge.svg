@@ -1,0 +1,33 @@
+<svg width="800" height="64" viewBox="0 0 800 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="badge-bg" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1a1040"/>
+      <stop offset="0.5" stop-color="#2a1660"/>
+      <stop offset="1" stop-color="#1a1040"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur">
+        <animate attributeName="stdDeviation" values="2;6;2" dur="2s" repeatCount="indefinite"/>
+      </feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="64" rx="32" fill="url(#badge-bg)" stroke="#8B5CF6" stroke-width="1.5"/>
+
+  <circle cx="46" cy="32" r="8" fill="#FFD21E">
+    <animate attributeName="opacity" values="1;0.35;1" keyTimes="0;0.5;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="80" y="40" font-family="Segoe UI, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#F5F3FF" filter="url(#glow)">
+    Building Generative AI &amp; LLM-Powered Systems
+    <animate attributeName="opacity" values="1;1;0.45;1;1" keyTimes="0;0.4;0.5;0.6;1" dur="2s" repeatCount="indefinite"/>
+  </text>
+
+  <circle cx="754" cy="32" r="8" fill="#58A6FF">
+    <animate attributeName="opacity" values="1;0.35;1" keyTimes="0;0.5;1" dur="2s" repeatCount="indefinite" begin="1s"/>
+  </circle>
+</svg>
