@@ -107,6 +107,7 @@
 [![Aven](https://img.shields.io/badge/Aven-8B5CF6?style=for-the-badge&logo=pytorch&logoColor=white)](https://github.com/anucoder01/aven)
 [![InfraPredict](https://img.shields.io/badge/InfraPredict-58A6FF?style=for-the-badge&logo=googlecloud&logoColor=white)](https://github.com/anucoder01/infrapredict)
 [![TrustTrace](https://img.shields.io/badge/TrustTrace-8B5CF6?style=for-the-badge&logo=opencv&logoColor=white)](https://github.com/anucoder01/trusttrace)
+[![AquaSense](https://img.shields.io/badge/AquaSense-00B8D9?style=for-the-badge&logo=water&logoColor=white)](https://github.com/anucoder01/Aqua_Sense)
 
 </div>
 
@@ -152,6 +153,13 @@ Lead Developer on a cloud-native predictive maintenance pipeline for IoT infrast
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8B5CF6,100:58A6FF&height=3&width=100%25" />
 
+### 💧 AquaSense — Agentic RAG Water Sustainability Advisor
+Built a conversational water-footprint and conservation assistant that pairs household usage estimates with retrieval-grounded guidance.
+- Implemented an interactive household assessment with daily and per-person usage estimates, sustainability scoring, benchmark comparisons, and tailored water-saving recommendations.
+- Added an agentic RAG chat flow that plans multi-query searches, retrieves evidence from a local ChromaDB knowledge base, and refines retrieval with the user's profile when context is sparse.
+- Exposes retrieved sources and agent steps in chat; built with vanilla HTML/CSS/JavaScript, FastAPI, Sentence Transformers, ChromaDB, and Google Gemini.
+
+[Repository](https://github.com/anucoder01/Aqua_Sense) · [Setup and API documentation](https://github.com/anucoder01/Aqua_Sense#readme)
 ### 🔹 TrustTrace — Multimodal Document Intelligence System
 Lead Developer on an automated signature-verification and fraud-inference platform.
 - Delivered end-to-end fraud inference under 150ms on a FastAPI backend
